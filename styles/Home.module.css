@@ -118,9 +118,7 @@
     border-color: #ffffff;
   }
   .code {
-    background: #ffffff;
+    background: #6d0051;
   }
-  .logo img {
-    filter: invert(1);
-  }
+
 }

@@ -50,7 +50,12 @@ export default function CharacterProfile() {
       >
         <button onClick={router.back}>Обратно</button>
 
-        <Image src={data.image} width={300} height={300} />
+        <Image
+          src={data.image}
+          width={300}
+          height={300}
+          style={{ borderRadius: "30px" }}
+        />
         <h1>{data.name}</h1>
 
         <div
@@ -62,13 +67,13 @@ export default function CharacterProfile() {
             gap: "10px",
           }}
         >
-          <h3>Informations</h3>
+          <h3>Information</h3>
         </div>
 
         <div
           style={{
             display: "flex",
-            background: "red",
+            background: "yellow",
             flexWrap: "wrap",
             gap: "20px",
           }}

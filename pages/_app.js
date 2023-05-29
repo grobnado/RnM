@@ -15,7 +15,6 @@ function MyApp({ Component, pageProps }) {
         <div></div>
         <div style={{ display: "flex", gap: "10px" }}>
           <Link href="/">Characters</Link>
-          <Link href="/locations">Locations</Link>
           <Link href="/episodes">Episodes</Link>
         </div>
       </header>
